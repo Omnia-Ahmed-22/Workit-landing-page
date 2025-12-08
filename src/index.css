@@ -1,0 +1,16 @@
+@import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Manrope:wght@200..800&display=swap');
+@theme {
+   /* Colors */
+    --color-green: oklch(0.8871 0.1966 155.94);
+    --color-purple-900: oklch(0.2155 0.1002 303.48);
+    --color-purple-500: oklch(0.4391 0.0366 308.56);
+    --color-purple-100: oklch(0.9842 0.0101 311.18);
+    /* Font Family */
+    --font-manrope: 'manrope', sans-serif;
+    --font-fraunces: 'fraunces';
+    /*  breakpoints  */
+    --breakpoint-mobile: 375px;
+    --breakpoint-tablet: 768px;
+    --breakpoint-desktop: 992px;
+}
